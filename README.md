@@ -1,4 +1,5 @@
 SVNET v1 — Basic Network Topology Design
+
 📌 Overview
 SVNET v1 is a basic enterprise network simulation built using Cisco Packet Tracer.
 This project demonstrates foundational networking concepts including IP addressing, routing, and core network services.
@@ -11,6 +12,7 @@ Understand IP addressing and subnetting
 Configure basic routing between networks
 Deploy core network services (DHCP, DNS, Web Server)
 Test connectivity between internal and external systems
+
 🏗️ Network Architecture
 Internal Network (192.168.1.0/24)
 PCs (Clients)
@@ -51,6 +53,7 @@ Routing
 Enables communication between internal and external networks
 Network Monitoring
 Sniffer used to observe packet flow in the network
+
 🔍 Testing & Validation
 The following tests were performed:
 
@@ -59,10 +62,12 @@ Communication between internal and external networks
 Access to web server from external PC
 DNS resolution testing
 Packet capture using sniffer
+
 📊 Project Files
 SVNET_v1.pkt — Cisco Packet Tracer file
 topology.png — Network diagram
 README.md — Project documentation
+
 ⚠️ Limitations
 This is a basic network design and does not include advanced security features:
 
@@ -71,6 +76,7 @@ No Access Control Lists (ACL)
 No NAT configuration
 No firewall implementation
 Limited security controls
+
 🚀 Future Improvements (SVNET v2)
 Planned upgrades to enhance security and scalability:
 
@@ -81,6 +87,7 @@ Integrate firewall rules
 Deploy IDS/IPS (Snort / Suricata)
 Implement dynamic routing (OSPF)
 SIEM integration for monitoring
+
 👨‍💻 Author
 Sanskar Vijay Dahatre
 Cybersecurity Enthusiast | Networking Learner
